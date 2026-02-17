@@ -15,10 +15,14 @@ Some features we're especially pround of include:
 
 For examples of what Adviser is capable of, have a look at our [demos](https://github.com/adviserlabs/demos).
 
-# Who we are
+## Who we are
 
 We're a team of software engineers distributed across the United States. For more, see [Adviser Labs](https://www.adviser.sh/company).
 
-# Thanks
+## Thanks
 
 Several people and organizations have made this project possible. We're grateful to the [National Science Foundation](https://www.nsf.gov) and [Vanderbilt University](https://www.vanderbilt.edu) for their generous financial support, and none of this would be possible without [SkyPilot](https://docs.skypilot.co/en/latest/docs/index.html) for its instance provisioning and storage mounting support for AWS and Azure.
+
+<img width="10%" alt="NSF Logo" src="https://github.com/user-attachments/assets/30821da4-c8c2-48dc-b3ec-81ed02860c8b" />
+<img width="10%" alt="Vanderbilt Logo" src="https://github.com/user-attachments/assets/a9346c26-9e31-4c71-9711-9dd96086debe" />
+<img width="10%" alt="SkyPilot Logo" src="https://github.com/user-attachments/assets/3e873525-fde0-4549-9a51-57fd6126e336" />
