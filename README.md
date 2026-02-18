@@ -8,7 +8,7 @@
 
 Welcome to the homepage for Adviser! Adviser is a self-hostable high-performance computing engine written in Python with a CLI client written in Go. Our goal is to lower the barrier to entry for researchers familiar with software development but unfamiliar with the details of cloud computing.
 
-Some features we're especially pround of include:
+Some features we're especially proud of include:
 * A single CLI command, `adviser run`, can be used to run arbitrary code in any programming language.
 * Any AWS or Azure cloud storage can be mounted to each job.
 * The self-hostable adviser-cloudproxy service is capable of concurrently running jobs for any number of research organizations or independent users with a single AWS or Azure account.
