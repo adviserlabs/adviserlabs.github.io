@@ -11,7 +11,7 @@ Welcome to the homepage for Adviser! Adviser is a self-hostable high-performance
 Some features we're especially proud of include:
 * A single CLI command, `adviser run`, can be used to run arbitrary code in any programming language.
 * Any AWS or Azure cloud storage can be mounted to each job.
-* The self-hostable adviser-cloudproxy service is capable of concurrently running jobs for any number of research organizations or independent users with a single AWS or Azure account.
+* The self-hostable adviser-cloudproxy service is capable of concurrently running jobs for any number of research organizations or independent users, all with a single AWS or Azure account.
 
 For examples of what Adviser is capable of, have a look at our [demos](https://github.com/adviserlabs/demos).
 
