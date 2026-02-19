@@ -32,4 +32,14 @@ The simulation is initialized via PISM’s bootstrapping procedure and run under
 To demonstrate Adviser’s parameter injection capability, we override the default pseudo-plastic sliding law exponent from 𝑞= 0.25 to 𝑞= 0.5, simulating more linear sliding behavior and producing a present-day state suitable for subsequent experiments.
 The diagnostic visualization output of surface velocity magnitude velsurf_mag is shown below, validating that Adviser can execute a full ice-sheet spin-up workflow and produce domain-standard model fields at scale.
 
-<img width="20%" alt="Surface Velocity Magnitude" src="https://github.com/user-attachments/assets/c6c17686-c8f1-43ec-99a1-3ba3792947ef" />
+<picture>
+  <!-- For mobile devices -->
+  <source width="100%" media="(max-width: 600px)" srcset="https://github.com/user-attachments/assets/c6c17686-c8f1-43ec-99a1-3ba3792947ef">
+  
+  <!-- For tablets or medium screens -->
+  <source width="75%" media="(max-width: 1200px)" srcset="https://github.com/user-attachments/assets/c6c17686-c8f1-43ec-99a1-3ba3792947ef">
+  
+  <!-- Default/fallback for desktop -->
+  <img width="50%" alt="Surface Velocity Magnitude" src="https://github.com/user-attachments/assets/c6c17686-c8f1-43ec-99a1-3ba3792947ef" />
+</picture>
+
