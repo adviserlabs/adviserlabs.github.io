@@ -16,6 +16,23 @@ Adviser encapsulates these complexities within a reusable template enabling sing
 
 We use Adviser to simulate the Pine Island Glacier, a major West Antarctic outlet glacier studied for its sea-level rise contribution.
 The simulation has two stages: an inversion step estimates physical parameters (e.g., basal friction) by fitting to observational velocity data, producing a calibrated initial state followed by a forward simulation then evolves glacier thickness and geometry over 200 years under prescribed surface mass balance and basal melt forcing, solving velocity diagnostically and updating thickness prognostically with floating/grounded regions determined dynamically via flotation criteria.
+You can find the code to run this simulation [here](https://github.com/csh-apprentice/Adviser_CS).
+
+```
+# Inverse step
+> adviser run \
+  --instance-type c6i.4xlarge \
+  --num-nodes 4 \
+  --container-image-uri docker.io/firedrakeproject/firedrake-vanilla:2025-01 \
+  bash run_inverse.sh
+
+# Forward simulation
+> adviser run \
+  --instance-type c6i.4xlarge \
+  --container-image-uri docker.io/firedrakeproject/firedrake-vanilla:2025-01 \
+  bash run_forward.sh
+```
+
 This workflow supports multiple glacier geometries (2017 and 2020 ice-shelf front configurations) and represents a non-trivial scientific workload with complex dependencies, multi-stage execution, and domain-specific outputs.
 During execution, structured outputs and diagnostics are produced, including spatial fields and auto-generated visualizations; intermediate and final artifacts (parameter fields, state variables, logs) are written to disk with post-processing specifications that extract diagnostics without manual setup.
 Diagnostic outputs are shown below: basal melt rate (𝑚/𝑦𝑟) in (a), floating versus grounded ice mask indicating grounding line geometry in (b), and ice thickness change rate (𝑚/𝑦𝑟) in (c).
