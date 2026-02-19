@@ -21,4 +21,10 @@ During execution, structured outputs and diagnostics are produced, including spa
 Diagnostic outputs are shown below: basal melt rate (𝑚/𝑦𝑟) in (a), floating versus grounded ice mask indicating grounding line geometry in (b), and ice thickness change rate (𝑚/𝑦𝑟) in (c).
 These demonstrate Adviser successfully orchestrating a complex simulation-to-visualization pipeline for a realistic scientific workflow.
 
-<img width="50%" alt="Icepack Pine Island Glacier model" src="https://github.com/user-attachments/assets/ddf3c348-1e8b-435b-8e18-c4345c836f6f" />
+<picture>
+  <!-- For mobile devices, tablets, or medium screens -->
+  <source width="100%" media="(max-width: 1200px)" srcset="https://github.com/user-attachments/assets/ddf3c348-1e8b-435b-8e18-c4345c836f6f">
+  
+  <!-- Default/fallback for desktop -->
+  <img width="50%" alt="Icepack Pine Island Glacier model" src="https://github.com/user-attachments/assets/ddf3c348-1e8b-435b-8e18-c4345c836f6f" />
+</picture>
