@@ -40,7 +40,7 @@ You can find the code to run this simulation [here](https://github.com/csh-appre
   bash strong_scaling.sh
 ```
 
-The diagnostic visualization output of surface velocity magnitude velsurf_mag is shown below, validating that Adviser can execute a full ice-sheet spin-up workflow and produce domain-standard model fields at scale.
+The diagnostic visualization output of surface velocity magnitude `velsurf_mag` is shown below, validating that Adviser can execute a full ice-sheet spin-up workflow and produce domain-standard model fields at scale.
 
 <picture>
   <!-- For mobile devices -->
