@@ -29,7 +29,17 @@ The Adviser–PISM integration encapsulates the full build and execution procedu
 
 We use Adviser to run a Greenland-scale ice-sheet spin-up simulation derived from the [PISM manual](https://www.pism.io/docs/manual/std-greenland/index.html).
 The simulation is initialized via PISM’s bootstrapping procedure and run under MPI parallelism from 10kyr BP to present (year−10000 to 0) using 10km horizontal grid spacing, constant-climate surface forcing, and PISM’s SIA+SSA dynamics model.
-To demonstrate Adviser’s parameter injection capability, we override the default pseudo-plastic sliding law exponent from 𝑞= 0.25 to 𝑞= 0.5, simulating more linear sliding behavior and producing a present-day state suitable for subsequent experiments.
+To demonstrate Adviser’s parameter injection capability, we override the default pseudo-plastic sliding law exponent from q=0.25 to q=0.5, simulating more linear sliding behavior and producing a present-day state suitable for subsequent experiments.
+You can find the code to run this simulation [here](https://github.com/csh-apprentice/Adviser_CS).
+
+```
+> adviser run \
+  --num-nodes 4 \
+  --setup "bash setup_pism.sh && bash first_run_new.sh" \
+  export NP_LIST="1 2 4 8" && \
+  bash strong_scaling.sh
+```
+
 The diagnostic visualization output of surface velocity magnitude velsurf_mag is shown below, validating that Adviser can execute a full ice-sheet spin-up workflow and produce domain-standard model fields at scale.
 
 <picture>
