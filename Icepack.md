@@ -2,7 +2,7 @@
 
 &nbsp;
 
-[Home](README.md) [Documentation](https://github.com/adviserlabs/docs) [Icepack](Icepack) [PISM](PISM)
+[Home](README.md) [Documentation](https://github.com/adviserlabs/docs) [Icepack](Icepack) [PISM](PISM) [Join our Slack!](https://join.slack.com/t/adviserworld/shared_invite/zt-3iic7yexw-dfmC9Ewvvpr5VGFR49TmeA)
 
 ***
 
